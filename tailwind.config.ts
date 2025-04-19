@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// JalTrackers custom colors
+				jalblue: {
+					100: '#E6F7FF',
+					200: '#BAE7FF',
+					300: '#91D5FF',
+					400: '#69C0FF',
+					500: '#3A7CA5',  // main blue
+					600: '#0F4C81',  // dark blue
+					700: '#0C3D69',
+					800: '#082F52',
+					900: '#04223C',
+				},
+				jalgreen: {
+					100: '#E6F8F1',
+					200: '#C2EDDA',
+					300: '#9EE2C3',
+					400: '#7AC297',  // light green
+					500: '#2E8B57',  // main green
+					600: '#256E45',
+					700: '#1D5234',
+					800: '#143723',
+					900: '#0B1B11',
 				}
 			},
 			borderRadius: {
@@ -84,11 +108,25 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'wave': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-15px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'wave': 'wave 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite'
+			},
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
+				'display': ['Playfair Display', 'serif']
 			}
 		}
 	},
