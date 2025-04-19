@@ -1,7 +1,6 @@
-
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import { Users, Handshake, Heart, DollarSign, Briefcase, BarChart, Leaf, Tree, Droplet } from "lucide-react";
+import { Users, Handshake, Heart, DollarSign, Briefcase, BarChart, Leaf, Trees, Droplet } from "lucide-react";
 
 const Impact = () => {
   const benefits = [
@@ -37,7 +36,7 @@ const Impact = () => {
       title: "Environmental Benefits",
       description:
         "JalTrackers helps conserve precious water resources and reduce the carbon footprint associated with water usage.",
-      icons: [Leaf, Tree, Droplet],
+      icons: [Leaf, Trees, Droplet],
       items: [
         "Reduced water waste through real-time monitoring and optimization",
         "Lower carbon footprint from reduced energy use in water heating and pumping",
