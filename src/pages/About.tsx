@@ -90,30 +90,32 @@ const About = () => {
                     <span className="text-jalblue-600 text-4xl font-bold">RK</span>
                   </div>
                   <h3 className="mt-4 text-xl font-medium text-gray-900">Raman Kumar</h3>
-                  <p className="text-jalblue-500">Founder & CEO</p>
-                  <p className="mt-2 text-gray-600">
-                    Environmental Engineer with over 15 years of experience in water resource management
-                  </p>
+                  <p className="text-jalblue-500">Team Leader </p>
+                  
                 </div>
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
                     <span className="text-jalblue-600 text-4xl font-bold">AP</span>
                   </div>
-                  <h3 className="mt-4 text-xl font-medium text-gray-900">Anjali Patel</h3>
-                  <p className="text-jalblue-500">CTO</p>
-                  <p className="mt-2 text-gray-600">
-                    IoT specialist with background in sensor technology and data analytics
-                  </p>
+                  <h3 className="mt-4 text-xl font-medium text-gray-900">Tanvi Bhardwaj</h3>
+                  <p className="text-jalblue-500">Team Member</p>
+                  
                 </div>
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
                     <span className="text-jalblue-600 text-4xl font-bold">VR</span>
                   </div>
-                  <h3 className="mt-4 text-xl font-medium text-gray-900">Vikram Reddy</h3>
-                  <p className="text-jalblue-500">Head of Research</p>
-                  <p className="mt-2 text-gray-600">
-                    PhD in Hydrology with focus on sustainable water management systems
-                  </p>
+                  <h3 className="mt-4 text-xl font-medium text-gray-900">Ankit Singh</h3>
+                  <p className="text-jalblue-500">Team Member</p>
+                  
+                </div>
+                <div className="text-center">
+                  <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
+                    <span className="text-jalblue-600 text-4xl font-bold">VR</span>
+                  </div>
+                  <h3 className="mt-4 text-xl font-medium text-gray-900">Aadarsh Jhs</h3>
+                  <p className="text-jalblue-500">Team Member</p>
+                  
                 </div>
               </div>
             </div>
