@@ -111,9 +111,9 @@ const About = () => {
                 </div>
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
-                    <span className="text-jalblue-600 text-4xl font-bold">AJ</span>
+                    <span className="text-jalblue-600 text-4xl font-bold">AK</span>
                   </div>
-                  <h3 className="mt-4 text-xl font-medium text-gray-900">Aadarsh Jha</h3>
+                  <h3 className="mt-4 text-xl font-medium text-gray-900">Adarsh Kumar</h3>
                   <p className="text-jalblue-500">Team Member</p>
                   
                 </div>
