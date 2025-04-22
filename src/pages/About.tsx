@@ -84,7 +84,7 @@ const About = () => {
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="p-8 sm:p-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Team</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
                     <span className="text-jalblue-600 text-4xl font-bold">RK</span>
@@ -95,7 +95,7 @@ const About = () => {
                 </div>
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
-                    <span className="text-jalblue-600 text-4xl font-bold">AP</span>
+                    <span className="text-jalblue-600 text-4xl font-bold">TB</span>
                   </div>
                   <h3 className="mt-4 text-xl font-medium text-gray-900">Tanvi Bhardwaj</h3>
                   <p className="text-jalblue-500">Team Member</p>
@@ -103,7 +103,7 @@ const About = () => {
                 </div>
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
-                    <span className="text-jalblue-600 text-4xl font-bold">VR</span>
+                    <span className="text-jalblue-600 text-4xl font-bold">AS</span>
                   </div>
                   <h3 className="mt-4 text-xl font-medium text-gray-900">Ankit Singh</h3>
                   <p className="text-jalblue-500">Team Member</p>
@@ -111,9 +111,9 @@ const About = () => {
                 </div>
                 <div className="text-center">
                   <div className="h-40 w-40 rounded-full bg-jalblue-100 mx-auto flex items-center justify-center">
-                    <span className="text-jalblue-600 text-4xl font-bold">VR</span>
+                    <span className="text-jalblue-600 text-4xl font-bold">AJ</span>
                   </div>
-                  <h3 className="mt-4 text-xl font-medium text-gray-900">Aadarsh Jhs</h3>
+                  <h3 className="mt-4 text-xl font-medium text-gray-900">Aadarsh Jha</h3>
                   <p className="text-jalblue-500">Team Member</p>
                   
                 </div>
